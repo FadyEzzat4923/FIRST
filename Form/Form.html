@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sign In</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Form.css">
+    </head>
+    <body>
+  <main >
+   <form method="post" action="Form2.html">
+        <div class="Big">
+     <div class="Small"><label class="star" for="Star">*</label> <label class="name" for="Fname">First Name </label><br>
+        <input type="text" required  maxlength="10" class="input" name="Fname">
+    </div >
+     <div class="Small"> <label for="Mname" class="name" >Middle Name </label><br>
+        <input type="text"  maxlength="10" class="input" name="Mname">
+    </div>
+     <div class="Small"><label class="star" for="Star">*</label> <label class="name"  for="Lname">Last Name </label><br>
+        <input type="text" class="input" minlength="3" required maxlength="10"  name="Lname">
+    </div>
+     <div class="Small"><label class="star" for="Star">*</label> <label class="name"  for="Phone">Phone Number </label><br>
+        <input type="number"  required class="input" name="Phone">
+    </div>
+     <div class="Small"><label class="star" for="Star">*</label> <label class="name"  for="pass">Password </label><br>
+        <input type="password" required maxlength="16" minlength="8" class="input" name="pass">
+    </div>
+     <div class="Small"><label class="star" for="Star">*</label> <label  class="name" for="email">Email  </label><br>
+        <input type="email" required  id="email" class="input" name="email"></div> 
+<div class="Small"><label class="star" for="Star">*</label> 
+    <label  class="name" for="Gender">Gender  </label><br>
+    <input type="radio"required class="gen" name="gen"> <label class="name" id="na" for="gen">Male</label>
+    <input type="radio" required class="gen" name="gen"> <label class="name" id="na" for="gen">Female</label>
+</div>
+     <div class="Small"><button type="submit" class="but">Sign In</button>
+     <button type="reset" class="but">Clear All</button></div>
+     </div>
+    </form>
+  </main>
+    </body>
+</html>

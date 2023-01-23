@@ -1,0 +1,395 @@
+@media (min-width:600px){
+*{
+    scroll-behavior: smooth;
+	
+}
+/* Nav Style */
+#nav{
+	display: flex;
+	flex-flow: row-reverse wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+    float: right;
+    margin-top: 10px;
+    width:40%;
+    height: 30vh;
+    background-color: black;
+border-radius: 0px 40px 0px 0px;
+}
+.button {
+line-height: 20vh;
+	direction: rtl;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	align-content:space-around;
+	width: 40px;
+
+}
+
+.button:hover{
+	width:  40px;
+}
+.button div{
+   background-color:  white;
+	width: 90%;
+	height: 2px;
+	margin: 3px 0px;
+	transition: 0.8s ease;
+}
+.big{
+	float: right;
+	width: 40px;
+		margin: 30px 30px 0px 0px; 
+	transition: 0.8s ease;
+}
+.dialog {
+    box-shadow: inset 0px 0px 10px 3px black;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-content: space-around;
+     display: none; 
+    margin-top: 10px;
+    margin-left: -16vh;
+    width: 20vh;
+    height: 22vh;
+    background-color: #d9f8fb;
+    color: black;
+	transition: 0.8s ease;
+}
+
+.big:hover .dialog{
+display: flex;
+
+}
+.big:hover .a2{
+	width: 60%;
+}
+	
+	
+	
+	
+body{
+    margin: auto;
+   width: 90%; 
+}
+	#ho{
+	margin: 6px 0px;
+		
+	}
+/* header style */
+#header{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	float: left;
+margin-top: 10px;
+width: 60%;
+height: 30vh;
+background-color: black;
+border-radius: 40px 0px 0px 0px;
+}
+/* Nav Style */
+#nav{
+	display: flex;
+	flex-flow: row-reverse wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+    float: right;
+    margin-top: 10px;
+    width:40%;
+    height: 30vh;
+    background-color: black;
+border-radius: 0px 40px 0px 0px;
+}
+/* Main Style */
+#main{
+	
+    clear: both;
+    width: 100%;
+  height: 200vh;
+  background-image: url(bg.jpg);
+	background-size: cover;
+  margin-bottom: 0px;
+}
+/* footer Style*/
+#footer{
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    border-radius: 0px 0px 40px 40px;
+}
+/* text Of Header Style*/
+/*
+.te{
+	width: 70%;
+	height: 25vh;
+	background-color: rgba(0, 0, 0, 0);
+}
+*/
+.p{
+    color: #00000000;
+    background-image: url(bg.jpg);
+    -webkit-background-clip: text;
+    word-spacing: 10px;
+    font-weight: bold;
+    font-size: 300%;
+	transform: translateY(10%);
+	transform: translateX(20%);
+}
+/* Box In Nav*/
+/*
+
+/* Search and Button Style*/
+.sub{
+    clear: both; 
+    margin-top: 5%;
+ margin-left: 10px;
+  background-color: white;
+  width: 90%;
+  height: 30px;
+  border-radius: 20px;
+}
+/* search Design */
+#in{
+    float: left;
+    width: 60%;
+    height: 30px;
+    border-radius: 20px 0px 0px 20px;
+    border: 0px;
+    outline: 0px;
+     color: rgb(26, 167, 255);
+    font-size: 13px;
+    font-weight: bold;
+padding: 15px;
+
+}
+/* Button Design*/
+#but{
+	float: right;
+	margin-right: 5px;
+    width: 50px;
+    height: 20px;
+     border-radius: 1000px;
+     background-image: url(bg.jpg);
+    background-size: 30%;
+     font-size: 80%;
+     color: rgb(255, 255, 255);
+     outline: 0px;
+     border: 0px;
+     margin-top: 5px;
+/*     transition: 1s width 0s, 1s height 0s , 1s margin-top 0s ;*/
+	transition: 0.8s ease;
+}
+#but:hover{
+	width: 60px;	
+	height: 23px;
+	margin-top: 3px;
+}
+#ul{
+    list-style-type: none;
+}
+/*
+#span{
+ float: left;   
+}
+*/
+.co{ 
+     padding-top: 10px;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.im{ 
+	
+	width: 20px;
+   transition: 0.5s ease;
+   box-shadow: 2px 3px rgb(0, 174, 255) ;
+}
+.im:hover{
+  width: 30px;
+}
+#down{
+	 display: flex;
+	flex-flow: row wrap ;
+	justify-content:center;
+	align-content: flex-end;
+    transform: scaleY(-1);
+}
+#a{
+    text-decoration: none;
+/*    transform: translateY(32%);*/
+    padding: 10px;
+	color: black;
+	    text-shadow: 8px 6px 7px black;
+/*    box-shadow: inset 0px 0px 10px 2px black;*/
+	transition: 0.6s ease;
+}
+	
+	#a:hover{
+		        box-shadow: inset 0px 0px 9px 3px #00f5ff;
+	}
+#sp {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-end;
+    margin-top: 66px;
+}
+/* Design main For article */
+.position{
+     width: 100%;
+    height: 100vh;
+    background-color: rgb(0,0,0,0);
+	display: flex;
+	flex-flow: wrap;
+
+}
+#wel{
+	width: 100%;
+	height: 100px;
+	margin: 20px;
+	color: rgb(54, 255, 255);
+transition: 0.8s ease;
+}
+#wel:hover{
+    color: rgb(255, 238, 0);
+}
+.perant{
+     width: 100%;
+    height: 100vh;
+   display: flex;
+   flex-flow: wrap row;
+	 justify-content:space-around;
+   align-content: flex-start;
+}
+	.ch{
+		  display: flex;
+   flex-flow: wrap row;
+	 justify-content:space-around;
+   align-content: flex-start;
+		 height: 33vh;
+    width: 280px;
+	}
+.child{
+height:  30vh;
+width: 250px;
+background: linear-gradient(45deg , rgb(189, 252, 255) 45% , rgb(92, 186, 245) 50%);
+	border-radius: 20px;
+/*transition: 0.5s height 0.3s , 0.5s width 0.2s;*/
+	transition: 0.8s ease;
+	
+	margin-bottom: 20px;
+	    box-shadow: 0 5px 25px rgb(1 1 1 / 50%);
+}
+.child:hover{
+    height: 33vh;
+    width: 280px;
+}
+#go{
+	border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+}
+/* Design Of Down Of Main */
+/*
+#import{
+ justify-content:space-around;
+ align-content: center;
+ 
+}
+*/
+	.imo{
+    width: 100%;
+    height: 10vh;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: flex-end;	
+	}
+.dow{
+	  background-color: rgb(0,0,0,0);
+    width: 100%;
+    height: 100vh;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: flex-end;
+	
+}
+
+#im{
+	width: 100%;
+	height: 5vh;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: flex-start;
+	}
+	.bi{
+		margin-top: 30vh;
+		width: 100%;
+		height: 30vh;
+		background:#00000000;
+		display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content:space-around;
+		text-align: center;
+		
+	}
+	.connect{
+		margin: 5px;
+/*	margin-top: 0px;*/
+		background: #00000000;
+		width: 100%;
+		height: 20vh;
+		display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content:space-around;
+		text-align: center;
+	}
+	.op{
+		display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content:space-around;
+		width: 23vh;
+		height: 15vh;
+	}
+	.con1{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content:space-around;
+		background: white;
+		width: 20vh;
+		height: 10vh;
+		margin: 15px;
+		color: blue;
+    	line-height: 10vh;
+		border-radius: 15px;
+		transition: 0.8s ease;
+		box-shadow: 0 5px 25px rgb(1 1 1 );
+		
+	}	
+	.con1:hover{
+		width:21vh;
+		height: 11vh;
+	}
+}
+/*Design For
+  Mobile And Tablet 
+with width For ( 600px To 300px )
+*/
